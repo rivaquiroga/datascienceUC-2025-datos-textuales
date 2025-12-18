@@ -1,4 +1,4 @@
-# Trabajo con datos textuales con Python
+# Trabajo con datos textuales en Python
 
 En esta clase del [Diplomado en Ciencia de Datos UC](https://datascience.uc.cl/) nos aproximaremos al trabajo con datos textuales usando Python. Como tenemos una sola clase para cubrir estos temas, será algo más bien introductorio que les permita luego seguir explorando por su cuenta.
 
@@ -53,8 +53,7 @@ En la segunda parte de la clase, discutiremos algunas nociones vinculadas al pre
 !python -m spacy download es_core_news_sm
 ```
 
-Hacia el final de la sesión hablaremos brevemente del potencial que tienen los modelos de lenguaje de gran escala (LLM) para resolver tareas de análisis de texto. Vamos a ejemplificar con [el plan gratuito de Google Gemini](https://aistudio.google.com/app/apikey), pero para el futuro ten en cuenta que ese plan no asegura la privacidad de los datos (y solo permite 15 requests por minuto). En la plataforma de Google AI for Developers [hay más información sobre cómo utilizar la API](https://ai.google.dev/gemini-api/docs/quickstart?hl=es-419&lang=python).
-
+Hacia el final de la sesión hablaremos brevemente del potencial que tienen los modelos de lenguaje de gran escala (LLM) para resolver tareas de análisis de texto. Vamos a ejemplificar con [el plan gratuito de Google Gemini](https://aistudio.google.com/app/apikey), pero para el futuro ten en cuenta que ese plan no asegura la privacidad de los datos (y tiene un límite de requests por minuto). En la plataforma de Google AI for Developers [hay más información sobre cómo utilizar la API](https://ai.google.dev/gemini-api/docs/quickstart?hl=es-419&lang=python). Durante la sesión veremos cómo obtener una API KEY y cómo guardarla de manera segura en Google Colab y localmente. 
 
 
 ## Actividades 
@@ -70,9 +69,9 @@ Hacia el final de la sesión hablaremos brevemente del potencial que tienen los 
 
 ### Ejercicio 2: "speech-to-text"
 
-:page_facing_up: [Código escrito en clases](https://www.dropbox.com/scl/fi/nw78epjuw2ulis7149k4t/02_speech-to-text.py?rlkey=52ldwa73ory7wa48yjve50sju&st=1rntx4ln&dl=0)
+:page_facing_up: [Código escrito en clases]()
 
-🎤 [Audio de prueba](https://www.dropbox.com/scl/fi/ru89plsyypoxkto7ghna6/audio-ejemplo.m4a?rlkey=8vdn22m9ob5gn03dircgpt2ie&st=fagxfd9r&dl=0)
+🎤 [Audio de prueba]()
 
 ### Ejercicio 3: Discutir algunas cosas sobre preprocesamiento de texto
  
@@ -84,11 +83,12 @@ Hacia el final de la sesión hablaremos brevemente del potencial que tienen los 
 
 ## Recursos adicionales
 
-En esta sección agregaremos más recursos a partir de lo que indiquen en nuestro documento compartido respecto de sus intereses.
+En esta sección agregaremos más recursos a partir de los comentarios que surjan en clases.
 
 ### Documentación librerías utilizadas
 
-pronto...
+- [Whisper](https://github.com/openai/whisper)
+- [Tesseract](https://pypi.org/project/pytesseract/)
 
 ### Sobre expresiones regulares
 - En Python usualmente las usamos a través de la librería [re](https://docs.python.org/es/3/library/re.html). La documentación está parcialmente traducida al español e incluye un [tutorial](https://docs.python.org/es/3/howto/regex.html).
@@ -112,3 +112,4 @@ Ojo que Poppler requiere tener permisos de administración del dispositivo para 
 
 ### En R
 El año 2023 el diplomado contemplaba tres clases sobre trabajo con datos textuales usando R. Los materiales están disponibles [en este repositorio](https://github.com/rivaquiroga/analisis-de-textos-r-2023). Además del código escrito en clases, hay enlaces a recursos adicionales para seguir profundizando.
+
