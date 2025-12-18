@@ -53,14 +53,12 @@ En la segunda parte de la clase, discutiremos algunas nociones vinculadas al pre
 !python -m spacy download es_core_news_sm
 ```
 
-Hacia el final de la sesión hablaremos brevemente del potencial que tienen los modelos de lenguaje de gran escala (LLM) para resolver tareas de análisis de texto. Vamos a ejemplificar con [el plan gratuito de Google Gemini](https://aistudio.google.com/app/apikey), pero para el futuro ten en cuenta que ese plan no asegura la privacidad de los datos (y tiene un límite de requests por minuto). En la plataforma de Google AI for Developers [hay más información sobre cómo utilizar la API](https://ai.google.dev/gemini-api/docs/quickstart?hl=es-419&lang=python). Durante la sesión veremos cómo obtener una API KEY y cómo guardarla de manera segura en Google Colab y localmente. 
+Hacia el final de la sesión hablaremos brevemente del potencial que tienen los modelos de lenguaje de gran escala (LLM) para resolver tareas de análisis de texto. Vamos a ejemplificar con [el plan gratuito de Google Gemini](https://aistudio.google.com/app/apikey), pero para el futuro ten en cuenta que ese plan no asegura la privacidad de los datos (y tiene un límite de requests por minuto). En la plataforma de Google AI for Developers [hay más información sobre cómo utilizar la API](https://ai.google.dev/gemini-api/docs/quickstart?hl=es-419&lang=python). Durante la sesión veremos cómo obtener una API KEY y cómo guardarla de manera segura en Google Colab. 
 
 
 ## Actividades 
 
 ### Ejercicio 1: extracción de texto de archivos en formato PDF
-
-:page_facing_up: [Código escrito en clases]()
 
 📖 [PDF escaneado](https://www.dropbox.com/scl/fi/yy9894lex6zf6sbyyj2yv/amanda_labarca.pdf?rlkey=03xplf67hh9gh5ffjfizs3h7m&dl=0)
 
@@ -69,17 +67,13 @@ Hacia el final de la sesión hablaremos brevemente del potencial que tienen los 
 
 ### Ejercicio 2: "speech-to-text"
 
-:page_facing_up: [Código escrito en clases]()
-
-🎤 [Audio de prueba]()
+🎤 [Audio de prueba](https://www.dropbox.com/scl/fi/ru89plsyypoxkto7ghna6/audio-ejemplo.m4a?rlkey=8vdn22m9ob5gn03dircgpt2ie&st=fagxfd9r&dl=0)
 
 ### Ejercicio 3: Discutir algunas cosas sobre preprocesamiento de texto
  
-:page_facing_up: [Código escrito en clases]()
 
 ### Ejercicio 4: Probando LLMs
 
-:page_facing_up: [Código escrito en clases]()
 
 ## Recursos adicionales
 
