@@ -70,10 +70,12 @@ Hacia el final de la sesión hablaremos brevemente del potencial que tienen los 
 🎤 [Audio de prueba](https://www.dropbox.com/scl/fi/ru89plsyypoxkto7ghna6/audio-ejemplo.m4a?rlkey=8vdn22m9ob5gn03dircgpt2ie&st=fagxfd9r&dl=0)
 
 ### Ejercicio 3: Discutir algunas cosas sobre preprocesamiento de texto
- 
+
+📑 [noticias](https://www.dropbox.com/scl/fi/ow73qqusabp0gmxi8gn1d/mil-noticias-del-pasado.csv?rlkey=nyhnlt3eg7agz8kc8nu4qourl&dl=0)
 
 ### Ejercicio 4: Probando LLMs
 
+📑 [titulares](https://www.dropbox.com/scl/fi/117yi3ft1p33q12gvqsn6/titulares.tsv?rlkey=509tv2m0ucu8qaqc2hm6y13u0&dl=0)
 
 ## Recursos adicionales
 
