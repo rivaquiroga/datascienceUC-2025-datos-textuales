@@ -44,19 +44,11 @@ Luego, para convertir un audio a texto, necesitarás instalar lo siguiente:
 
 (La línea de rust es importante si estás trabajando en tu computador personal. Si estás en Google Colab no es necesario). 
 
-En la segunda parte de la clase, discutiremos algunas nociones vinculadas al preprocesamiento de textos. Para esa parte de la sesión será necesario tener instalado lo siguiente:
+Hacia el final de la sesión hablaremos brevemente del potencial que tienen los modelos de lenguaje de gran escala (LLM) para resolver tareas de análisis de texto. Vamos a ejemplificar con [el plan gratuito de Google Gemini](https://aistudio.google.com/app/apikey), pero para el futuro ten en cuenta que ese plan no asegura la privacidad de los datos (y tiene un límite de requests por minuto). En la plataforma de Google AI for Developers [hay más información sobre cómo utilizar la API](https://ai.google.dev/gemini-api/docs/quickstart?hl=es-419&lang=python). Durante la sesión veremos cómo obtener una API KEY y cómo guardarla de manera segura en Google Colab. Quienes trabajen en local, deberán instalar `dotenv`para guardar su clave de forma segura:
 
 ```
-!pip install nltk
-!pip install -U pip setuptools wheel
-!pip install -U spacy
-!python -m spacy download es_core_news_sm
-```
-
-Hacia el final de la sesión hablaremos brevemente del potencial que tienen los modelos de lenguaje de gran escala (LLM) para resolver tareas de análisis de texto. Vamos a ejemplificar con [el plan gratuito de Google Gemini](https://aistudio.google.com/app/apikey), pero para el futuro ten en cuenta que ese plan no asegura la privacidad de los datos (y tiene un límite de requests por minuto). En la plataforma de Google AI for Developers [hay más información sobre cómo utilizar la API](https://ai.google.dev/gemini-api/docs/quickstart?hl=es-419&lang=python). Durante la sesión veremos cómo obtener una API KEY y cómo guardarla de manera segura en Google Colab. 
-
-
-## Actividades 
+pip install python-dotenv
+```## Actividades 
 
 ### Ejercicio 1: extracción de texto de archivos en formato PDF
 
@@ -64,18 +56,23 @@ Hacia el final de la sesión hablaremos brevemente del potencial que tienen los 
 
 ✍️ [PDF nativo](https://www.dropbox.com/scl/fi/kiwtke3zbkel1etcee51h/historia_python.pdf?rlkey=16oiuxjx7eliyn9165u1by9sj&dl=0)
 
+📄 [Código escrito en clases](https://www.dropbox.com/scl/fi/5bax5zij8tkfqk79s7a9a/01_extraccion-pdfs.py?rlkey=q17axzw9ivrf4njpzjj99oafk&dl=0)
 
 ### Ejercicio 2: "speech-to-text"
 
 🎤 [Audio de prueba](https://www.dropbox.com/scl/fi/ru89plsyypoxkto7ghna6/audio-ejemplo.m4a?rlkey=8vdn22m9ob5gn03dircgpt2ie&st=fagxfd9r&dl=0)
 
+📄 [Código escrito en clases](https://www.dropbox.com/scl/fi/2hqdw4a0ua1nun2yy1dlj/02_speech-to-text.py?rlkey=styssriugrf7x682k1sls46x1&dl=0)
+
 ### Ejercicio 3: Discutir algunas cosas sobre preprocesamiento de texto
 
-📑 [noticias](https://www.dropbox.com/scl/fi/ow73qqusabp0gmxi8gn1d/mil-noticias-del-pasado.csv?rlkey=nyhnlt3eg7agz8kc8nu4qourl&dl=0)
+(No alcanzamos a hacerlo 💔)
 
 ### Ejercicio 4: Probando LLMs
 
-📑 [titulares](https://www.dropbox.com/scl/fi/117yi3ft1p33q12gvqsn6/titulares.tsv?rlkey=509tv2m0ucu8qaqc2hm6y13u0&dl=0)
+📑 [titulares](https://raw.githubusercontent.com/rivaquiroga/datascienceUC-2025-datos-textuales/refs/heads/main/titulares.tsv)
+
+📓 [notebook](https://colab.research.google.com/drive/11IyGTX6ksbuNhrflUBZJhnZQ9PfL9qbs?usp=sharing)
 
 ## Recursos adicionales
 
