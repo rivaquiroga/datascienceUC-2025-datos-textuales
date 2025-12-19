@@ -48,7 +48,9 @@ Hacia el final de la sesión hablaremos brevemente del potencial que tienen los 
 
 ```
 pip install python-dotenv
-```## Actividades 
+```
+
+## Actividades 
 
 ### Ejercicio 1: extracción de texto de archivos en formato PDF
 
